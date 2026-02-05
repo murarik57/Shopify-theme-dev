@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "tumi_estimate_dd_edd_3BekmR": {
+          "type": "shopify://apps/tumi-estimate-dd/blocks/edd/019c2c65-4e73-7a38-85da-c3a5e39d031b",
+          "settings": {
+            "title": "Check Delivery Date"
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -57,6 +63,7 @@
         }
       },
       "block_order": [
+        "tumi_estimate_dd_edd_3BekmR",
         "vendor",
         "title",
         "price",
